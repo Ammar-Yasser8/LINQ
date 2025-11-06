@@ -179,7 +179,7 @@ This project demonstrates **mastery of LINQ (Language Integrated Query)** in C# 
 
 ```bash
 # Clone the repository
-git clone https://github.com/Ammar-Yasser8/LINQ.git
+git clone https://github.com/<your-username>/LINQ.git
 
 # Navigate to project directory
 cd LINQ
@@ -241,7 +241,7 @@ By exploring this project, you'll master:
 
 This repository represents an active learning journey! Contributions are welcome:
 
-- 🐛 **Report bugs** via [Issues](https://github.com/<Ammar-Yasser8>/LINQ/issues)
+- 🐛 **Report bugs** via [Issues](https://github.com/<your-username>/LINQ/issues)
 - 💡 **Suggest improvements** or additional LINQ examples
 - 🔀 **Submit pull requests** with enhanced queries or refactorings
 - ⭐ **Star the repo** if you find it helpful!
@@ -262,7 +262,7 @@ This project is open source and available under the [MIT License](LICENSE).
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ammar-yasser-a01772250/)
 [![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:ammar.yasser8920@gmail.com)
-[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/<Ammar-Yasser8>)
+[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/<your-username>)
 
 *Passionate about C#, .NET, and clean code architecture*
 
