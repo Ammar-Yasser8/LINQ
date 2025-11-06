@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 
-namespace Day_01_G03
+namespace Day_01
 {
     class Product : IComparable<Product>
     {

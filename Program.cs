@@ -1,4 +1,4 @@
-﻿using Day_01_G03;
+﻿using Day_01;
 // ----------------------LINQ - Restriction Operators---------------------------------
 var products = ListGenerator.ProductsList;
 //// 1. Find all products that are out of stock.
@@ -55,7 +55,47 @@ var products = ListGenerator.ProductsList;
 
 ////--------------------------------------------------------------------------------------------------
 ///--------------------------------------------------------------------------------------------------
-////3. Retrieve the second number greater than 5 
+//////3. Retrieve the second number greater than 5 
+//int[] Arr = { 5, 4, 1, 3, 9, 8, 6, 7, 2, 0 };
+//var secondNumberGretterThan5 = Arr.Where(n => n > 5).Skip(1).FirstOrDefault();
+//Console.WriteLine($"The second number greater than 5 is: {secondNumberGretterThan5}");
+
+////----------------------------LINQ - Aggregate Operators------------------------------------------------
+///-----------------------------LINQ - Aggregate Operators-------------------------------------------------
+
+//// 1- Uses Count to get the number of odd numbers in the array
+//int[] Arr = { 5, 4, 1, 3, 9, 8, 6, 7, 2, 0 };
+//int oddumbers = Arr.Count(n=> n%2 != 0);
+//Console.WriteLine($"Number of odd numbers in the array: {oddumbers}");
+
+
+
+////--------------------------------------------------------------------------------------------------
+/// 2- Return a list of customers and how many orders each has. 
+//var customers = ListGenerator.CustomersList;
+//foreach(var c in customers)
+//{
+//       Console.WriteLine($"Customer: {c.CustomerName}, Number of Orders: {c.Orders.Length}");
+
+//}
+
+////--------------------------------------------------------------------------------------------------
+//// 3. Return a list of categories and how many products each has
+// var categories = products.GroupBy(p=>p.Category).Select(g => new { Category = g.Key, ProductCount = g.Count() });
+//foreach(var category in categories)
+//{
+//    Console.WriteLine($"Category: {category.Category}, Number of Products: {category.ProductCount}");
+//}
+
+////--------------------------------------------------------------------------------------------------
+//// 4. Get the total of the numbers in an array.
 int[] Arr = { 5, 4, 1, 3, 9, 8, 6, 7, 2, 0 };
-var secondNumberGretterThan5 = Arr.Where(n => n > 5).Skip(1).FirstOrDefault();
-Console.WriteLine($"The second number greater than 5 is: {secondNumberGretterThan5}");
+int total = Arr.Sum();
+Console.WriteLine($"Total of numbers in the array: {total}");
+
+////--------------------------------------------------------------------------------------------------
+
+
+
+
+
