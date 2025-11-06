@@ -179,7 +179,7 @@ This project demonstrates **mastery of LINQ (Language Integrated Query)** in C# 
 
 ```bash
 # Clone the repository
-git clone https://github.com/<your-username>/LINQ.git
+git clone https://github.com/Ammar-Yasser8/LINQ.git
 
 # Navigate to project directory
 cd LINQ
