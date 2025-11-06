@@ -34,4 +34,28 @@ var products = ListGenerator.ProductsList;
 ////--------------------------------------------------------------------------------------------------
 ///
 
+//// ----------------------LINQ - Element Operators----------------------------------------
+//// ----------------------LINQ - Element Operators----------------------------------------
+//// 1. Retrieve the first product that is out of stock.
+//var productOutOfStock = products.FirstOrDefault(p => p.UnitsInStock == 0);
+//Console.WriteLine($"First product out of stock: {productOutOfStock?.ProductName}, UnitsInStock: {productOutOfStock?.UnitsInStock}");
 
+////--------------------------------------------------------------------------------------------------
+/// --------------------------------------------------------------------------------------------------
+//// 2. Return the first product whose Price > 1000, unless there is no match, in which case null is returned.
+//var productPriceOver1000 = products.FirstOrDefault(p=>p.UnitPrice>1000);
+//if (productPriceOver1000 is null)
+//{
+//    Console.WriteLine("No product found with price over 1000.");
+//}
+//else
+//{
+//    Console.WriteLine($"First product with price over 1000: {productPriceOver1000.ProductName}, Price: {productPriceOver1000.UnitPrice}");
+//}
+
+////--------------------------------------------------------------------------------------------------
+///--------------------------------------------------------------------------------------------------
+////3. Retrieve the second number greater than 5 
+int[] Arr = { 5, 4, 1, 3, 9, 8, 6, 7, 2, 0 };
+var secondNumberGretterThan5 = Arr.Where(n => n > 5).Skip(1).FirstOrDefault();
+Console.WriteLine($"The second number greater than 5 is: {secondNumberGretterThan5}");
