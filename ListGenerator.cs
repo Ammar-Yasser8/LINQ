@@ -46,6 +46,7 @@ namespace Day_01
             => $"Order Id: {OrderID}, Date: {OrderDate.ToShortDateString()}, Total: {Total}";
     }
 
+
     internal static class ListGenerator
     {
         public static List<Product> ProductsList { get; set; }
