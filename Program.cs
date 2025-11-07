@@ -1,4 +1,6 @@
 ﻿using Day_01;
+
+#region LINQ - Restriction Operators
 // ----------------------LINQ - Restriction Operators---------------------------------
 var products = ListGenerator.ProductsList;
 //// 1. Find all products that are out of stock.
@@ -34,6 +36,10 @@ var products = ListGenerator.ProductsList;
 ////--------------------------------------------------------------------------------------------------
 ///
 
+#endregion
+
+
+#region LINQ - Element Operators
 //// ----------------------LINQ - Element Operators----------------------------------------
 //// ----------------------LINQ - Element Operators----------------------------------------
 //// 1. Retrieve the first product that is out of stock.
@@ -89,13 +95,13 @@ var products = ListGenerator.ProductsList;
 
 ////--------------------------------------------------------------------------------------------------
 //// 4. Get the total of the numbers in an array.
-int[] Arr = { 5, 4, 1, 3, 9, 8, 6, 7, 2, 0 };
-int total = Arr.Sum();
-Console.WriteLine($"Total of numbers in the array: {total}");
+//int[] Arr = { 5, 4, 1, 3, 9, 8, 6, 7, 2, 0 };
+//int total = Arr.Sum();
+//Console.WriteLine($"Total of numbers in the array: {total}");
 
 ////--------------------------------------------------------------------------------------------------
 
-
+#endregion
 
 
 
